@@ -1,0 +1,54 @@
+/* Variables de colores*/
+/*Comienza Header*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #232323; }
+
+.navbar {
+  border-bottom: solid 5px #ffd700; }
+  .navbar .navbar-brand {
+    font-size: 2rem;
+    font-family: 'Koulen', cursive; }
+
+/*Finaliza Header*/
+/*Comienza el Main*/
+.container .row .titulo_equipo {
+  color: #ffd700;
+  font-size: 2rem; }
+
+.container .row .card .card-body {
+  font-size: 1.2rem; }
+
+.accordion .accordion-item .accordion-header {
+  background-color: #ffd700; }
+  .accordion .accordion-item .accordion-header .accordion-button {
+    border: solid 2px #ffd700;
+    font-size: 1.5rem; }
+
+.accordion .accordion-item .accordion-collapse .accordion-body {
+  font-size: 1.2rem; }
+
+/*Finaliza el Main*/
+/*Comienza Footer*/
+.footer {
+  border-top: solid 5px #ffd700;
+  color: #ffd700; }
+  .footer .titulo_redes {
+    text-align: center;
+    font-size: 1.5rem; }
+  .footer .container_redes {
+    display: flex;
+    justify-content: space-between; }
+    .footer .container_redes .redes a {
+      text-decoration: none;
+      color: #ffd700;
+      display: block; }
+    .footer .container_redes .redes img {
+      width: 4rem;
+      height: 4rem;
+      text-align: center;
+      margin-left: 1rem; }

@@ -1,0 +1,27 @@
+/*Comienza Footer*/
+
+.footer {
+    border-top: solid 5px $colorLetra;
+    color: $colorLetra;
+    .titulo_redes {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .container_redes{
+        display: flex;
+        justify-content: space-between;
+        .redes {
+            a {
+                text-decoration: none;
+                color: $colorLetra;
+                display: block;
+            }
+            img {
+                width: 4rem;
+                height: 4rem;
+                text-align: center;
+                margin-left: 1rem;
+            }
+        }
+    }
+}
