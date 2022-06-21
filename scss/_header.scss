@@ -12,8 +12,10 @@ body {
 .navbar {
     border-bottom:solid 5px $colorLetra;
     .navbar-brand{
+        text-align: center;
         font-size: 2rem;
         font-family: 'Koulen', cursive;
+        color: $colorLetra;
     }
 }
 
