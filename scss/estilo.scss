@@ -2,8 +2,10 @@
 $colorFondo: #232323;
 $colorLetra: #ffd700;
 $colorTransparencia: #000000d5;
+$tipoLetra:'Koulen', cursive;
 
 @import "header";
+@import "mainIndex";
 @import "main";
 @import "footer";
 

@@ -19,8 +19,34 @@
             img {
                 width: 4rem;
                 height: 4rem;
-                @extend .titulo_redes;
                 margin-left: 1rem;
+                padding: 5px;
+                border-radius: 40%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .footer {
+        height: 100px;
+        .titulo_redes {
+            display: none;
+        }
+        .container_redes{
+            .redes {
+                a {
+                    text-decoration: none;
+                    text-align: center;
+                    color: $colorLetra;
+                    display: block;
+                }
+                img {
+                    height: 2.5rem;
+                    width: 2.5rem;
+                    padding: 5px;
+                    border-radius: 40%;
+                }
             }
         }
     }
