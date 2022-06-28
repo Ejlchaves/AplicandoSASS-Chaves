@@ -5,7 +5,7 @@
     /* text-align: center; */
     margin: 2rem auto;
     h2 {
-        font-size: 2rem;
+        font-size: 3rem;
         font-family: $tipoLetra;
     }
     p {
@@ -52,7 +52,7 @@
     }
     .textoTienda {
         color: $colorLetra;
-        font-style: italic;
+        font-size: 1.3rem;
     }
 }
 
@@ -74,7 +74,8 @@
             }
             .card-body {
                 .botonTienda {
-                    transition: 1s;
+                    width: 10px;
+                    transition: 1ms;
                 }
                 .botonTienda:hover {
                     background-color: black;
@@ -97,11 +98,12 @@
     .row {
         .titulo_equipo {
             color: $colorLetra;
-            font-size: 2rem;
+            font-size: 3rem;
+            font-family: $tipoLetra;
         }
         .card{
             .card-body{
-                font-size: 1.2rem;;
+                font-size: 1.3rem;;
             }
         }
     }
@@ -136,7 +138,7 @@
         font-size: 3rem;
     }
     p {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         color: $colorLetra;
         text-align: center;
     }

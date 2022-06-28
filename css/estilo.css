@@ -127,7 +127,7 @@ body {
   .grid_container {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 400px 400px 400px;
+    grid-template-rows: 450px 450px 450px;
     grid-template-areas: "container1" "container2" "container3"; }
     .grid_container .container1 {
       grid-area: container1;
@@ -264,7 +264,7 @@ body {
   /* text-align: center; */
   margin: 2rem auto; }
   .intro-edu h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: "Koulen", cursive; }
   .intro-edu p {
     font-size: 1.3rem; }
@@ -301,7 +301,7 @@ body {
     color: #ffd700; }
   .introTienda .textoTienda {
     color: #ffd700;
-    font-style: italic; }
+    font-size: 1.3rem; }
 
 .container .row .lead h3 {
   font-family: "Koulen", cursive;
@@ -314,7 +314,8 @@ body {
   .container .row .card .text-card-body {
     height: 200px; }
   .container .row .card .card-body .botonTienda {
-    transition: 1s; }
+    width: 10px;
+    transition: 1ms; }
   .container .row .card .card-body .botonTienda:hover {
     background-color: black;
     color: #ffd700;
@@ -329,9 +330,10 @@ body {
   margin: 0 auto; }
   .container .row .titulo_equipo {
     color: #ffd700;
-    font-size: 2rem; }
+    font-size: 3rem;
+    font-family: "Koulen", cursive; }
   .container .row .card .card-body {
-    font-size: 1.2rem; }
+    font-size: 1.3rem; }
 
 .accordion .accordion-item .accordion-header {
   background-color: #ffd700; }
@@ -353,7 +355,7 @@ body {
     color: #ffd700;
     font-size: 3rem; }
   .container_flex p {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: #ffd700;
     text-align: center; }
 
