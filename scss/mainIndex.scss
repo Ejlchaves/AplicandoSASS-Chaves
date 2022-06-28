@@ -28,7 +28,7 @@
         margin: 2px 5px;
         .box1 {
             margin: 5px;
-            @include flex(row, center)
+            @include flex(row, center);
             align-items: center;
             text-align: center;
             color: $colorLetra;
@@ -63,7 +63,7 @@
         margin: 2px 5px;
         .box2 {
             margin: 5px;
-            @include flex(row-reverse, center)
+            @include flex(row-reverse, center);
             align-items: center;
             text-align: center;
             background-color: $colorTransparencia;
@@ -98,7 +98,7 @@
         .box3 {
             margin: 5px;
             
-            @include flex(column-reverse, center)
+            @include flex(column-reverse, center);
             align-items: center;
             text-align: center;
             background-color: $colorTransparencia;
@@ -193,7 +193,7 @@
                 align-self: center;
                 margin: 0;
                 .box3 {
-                    @include flex(row, center)
+                    @include flex(row, center);
                     #foto3 {
                         width: 300px;
                         height: 350px;
