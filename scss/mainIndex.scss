@@ -97,6 +97,7 @@
         align-self: center;
         .box3 {
             margin: 5px;
+            
             @include flex(column-reverse, center)
             align-items: center;
             text-align: center;
@@ -107,8 +108,8 @@
             border-radius: 10px;
             transform: 1s;
             #foto3 {
-                width: 300px;
-                height: 400px;
+                width: 400px;
+                height: 500px;
                 border: solid 2px $colorLetra;
                 border-radius: 5px;
             }
@@ -143,8 +144,8 @@
                 margin: 0;
                 .box1 {
                     #foto {
-                        width: 200px;
-                        height: 300px;
+                        width: 300px;
+                        height: 350px;
                         border: inset 2px $colorLetra;
                         border-radius: 5px;
                     } 
@@ -164,12 +165,12 @@
             }
             .container2 {
                 grid-area: container2;
-                align-self: center;
+                align-self: space-between;
                 margin: 0;
                 .box2 {
                     #foto2 {
-                        width: 200px;
-                        height: 300px;
+                        width: 300px;
+                        height: 350px;
                         border: inset 2px $colorLetra;
                         border-radius: 5px;
                     } 
@@ -194,8 +195,8 @@
                 .box3 {
                     @include flex(row, center)
                     #foto3 {
-                        width: 200px;
-                        height: 300px;
+                        width: 300px;
+                        height: 350px;
                         border: inset 2px $colorLetra;
                         border-radius: 5px;
                     } 

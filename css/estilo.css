@@ -109,8 +109,8 @@ body {
     border-radius: 10px;
     transform: 1s; }
     .container3 .box3 #foto3 {
-      width: 300px;
-      height: 400px;
+      width: 400px;
+      height: 500px;
       border: solid 2px #ffd700;
       border-radius: 5px; }
     .container3 .box3 .texto_box3 {
@@ -134,8 +134,8 @@ body {
       align-self: center;
       margin: 0; }
       .grid_container .container1 .box1 #foto {
-        width: 200px;
-        height: 300px;
+        width: 300px;
+        height: 350px;
         border: inset 2px #ffd700;
         border-radius: 5px; }
       .grid_container .container1 .box1 .texto_box1 {
@@ -149,11 +149,11 @@ body {
         box-shadow: 2px 2px 20px #ffd700; }
     .grid_container .container2 {
       grid-area: container2;
-      align-self: center;
+      align-self: space-between;
       margin: 0; }
       .grid_container .container2 .box2 #foto2 {
-        width: 200px;
-        height: 300px;
+        width: 300px;
+        height: 350px;
         border: inset 2px #ffd700;
         border-radius: 5px; }
       .grid_container .container2 .box2 .texto_box2 {
@@ -174,8 +174,8 @@ body {
         flex-direction: row;
         justify-content: center; }
         .grid_container .container3 .box3 #foto3 {
-          width: 200px;
-          height: 300px;
+          width: 300px;
+          height: 350px;
           border: inset 2px #ffd700;
           border-radius: 5px; }
         .grid_container .container3 .box3 .texto_box3 {
@@ -307,22 +307,31 @@ body {
   font-family: "Koulen", cursive;
   color: #ffd700; }
 
-.container .row .card .card-body .botonTienda {
+.container .row .card {
   transition: 1s; }
+  .container .row .card img {
+    height: 250px; }
+  .container .row .card .text-card-body {
+    height: 200px; }
+  .container .row .card .card-body .botonTienda {
+    transition: 1s; }
+  .container .row .card .card-body .botonTienda:hover {
+    background-color: black;
+    color: #ffd700;
+    border: solid 2px #ffd700; }
 
-.container .row .card .card-body .botonTienda:hover {
-  background-color: black;
-  color: #ffd700;
-  border: solid 2px #ffd700; }
+.container .row .card:hover {
+  box-shadow: 2px 2px 20px #ffd700; }
 
 /*Finaliza el Main de Tienda*/
 /*Comienza el Main de Nosotros*/
-.container .row .titulo_equipo {
-  color: #ffd700;
-  font-size: 2rem; }
-
-.container .row .card .card-body {
-  font-size: 1.2rem; }
+.container {
+  margin: 0 auto; }
+  .container .row .titulo_equipo {
+    color: #ffd700;
+    font-size: 2rem; }
+  .container .row .card .card-body {
+    font-size: 1.2rem; }
 
 .accordion .accordion-item .accordion-header {
   background-color: #ffd700; }

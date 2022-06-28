@@ -65,6 +65,13 @@
             }
         }
         .card {
+            transition: 1s;
+            img {
+                height: 250px;
+            }
+            .text-card-body {
+                height: 200px;
+            }
             .card-body {
                 .botonTienda {
                     transition: 1s;
@@ -76,6 +83,9 @@
                 }
             }
         }
+        .card:hover {
+            box-shadow: 2px 2px 20px $colorLetra;
+        }
     }
 }
 
@@ -83,6 +93,7 @@
 
 /*Comienza el Main de Nosotros*/
 .container{
+    margin: 0 auto;
     .row {
         .titulo_equipo {
             color: $colorLetra;
